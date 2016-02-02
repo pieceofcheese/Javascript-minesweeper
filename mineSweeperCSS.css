@@ -1,0 +1,129 @@
+div.scroll {
+	margin: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	background-image: url("C:\\Users\\Pieceofcheese\\Programming\\minesweeper\\images\\blank.png");
+	border-top-style: solid; 
+}
+
+button.right {
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+	
+}
+
+p.sansserif {
+	position: absolute;
+	top: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body.background {
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-image: url("C:\\Users\\Pieceofcheese\\Programming\\minesweeper\\images\\Background maybe.png");
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+table {
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: #E0E0E0;
+	
+}
+
+td.cell {
+	width: 16px;
+	height: 16px;
+	border: 1px solid #CCCCCC;
+	background-color: #EEEEEE;
+	
+}
+
+td.empty {
+	
+	width: 16px;
+	height: 16px;
+	
+	
+}
+
+td.mine {
+	width: 16px;
+	height: 16px;
+	border: 1px solid #000000;
+
+}
+td.close1{
+	
+	width: 16px;
+	height: 16px;
+	border:	1px solid #CCCCCC;
+	background-image: url("C:\\Users\\Pieceofcheese\\Programming\\minesweeper\\images\\1.png")
+
+}
+td.close2{
+	
+	width: 16px;
+	height: 16px;
+	border:	1px solid #CCCCCC;
+	background-image: url("C:\\Users\\Pieceofcheese\\Programming\\minesweeper\\images\\2.png")
+
+}
+td.close3{
+	
+	width: 16px;
+	height: 16px;
+	border:	1px solid #CCCCCC;
+	background-image: url("C:\\Users\\Pieceofcheese\\Programming\\minesweeper\\images\\3.png")
+
+}
+td.close4{
+	
+	width: 16px;
+	height: 16px;
+	border:	1px solid #CCCCCC;
+	background-image: url("C:\\Users\\Pieceofcheese\\Programming\\minesweeper\\images\\4.png")
+
+}
+td.close5{
+	
+	width: 16px;
+	height: 16px;
+	border:	1px solid #CCCCCC;
+	background-image: url("C:\\Users\\Pieceofcheese\\Programming\\minesweeper\\images\\5.png")
+
+}
+td.close6{
+	
+	width: 16px;
+	height: 16px;
+	border:	1px solid #CCCCCC;
+	background-image: url("C:\\Users\\Pieceofcheese\\Programming\\minesweeper\\images\\6.png")
+
+}
+td.close7{
+	
+	width: 16px;
+	height: 16px;
+	border:	1px solid #CCCCCC;
+	background-image: url("C:\\Users\\Pieceofcheese\\Programming\\minesweeper\\images\\7.png")
+
+}
+td.close8{
+	
+	width: 16px;
+	height: 16px;
+	border:	1px solid #CCCCCC;
+	background-image: url("C:\\Users\\Pieceofcheese\\Programming\\minesweeper\\images\\8.png")
+
+}
