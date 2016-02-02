@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Test</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="C:\\Users\\Pieceofcheese\\Programming\\minesweeper\\mineSweeperCSS.css"/>
+		<script type="text/javascript" src="C:\\Users\\Pieceofcheese\\Programming\\minesweeper\\minesweeperjs.js">
+		
+		</script>
+		<style>
+			button.spot {
+			height:20px;
+			width:20px;
+	
+			}
+			
+			#nav {
+				
+				background-color:#eeeeee;
+				text-align:center;
+				padding:5px;	      
+			}
+			
+			h1.sansserif {
+				font-family: Arial, Helvetica, sans-serif;
+				// font-style: italic;
+				color: #333333;
+			}
+			form {
+				font-family: Arial, Helvetica, sans-serif;
+			}
+		</style>
+		
+	</head>
+	
+	<body onload ="init(10,10,10)" id = "body" class = "background">
+	
+		<h1 align = "center" class = sansserif > Minesweeper</h1>
+	
+		<div id="game">
+			
+			
+			
+		</div>
+		<div id="forms" align = "center" class = "scroll">
+			
+			<form>
+				Number of Mines: <br>
+				<input id = "mineCount" type="number"  name = "mines" value = "10">
+				<br>
+			</form>
+			
+			<form>
+				Width: <br>
+				<input id="width" type="number" name = "width" value = "10">
+				<br>
+			</form>
+			
+			<form>
+				Height: <br>
+				<input id = "height" type="number" name = "height" value = "10">
+				<br>
+			</form>
+			
+			<button onclick = "reinit()" class = "right"> Create New </button>
+			
+		</div>
+	
+	</body>
+	
+</html>
